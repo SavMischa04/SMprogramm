@@ -1,0 +1,27 @@
+<!DOCTYPE html>                     <!-- mandatory declaration of the file type so that the page is parsed equally in different browsers -->
+<html>                              <!-- added a <html> element, all elements must be its children -->
+    <head>                          <!-- <header> you can't be a child <html>, added <head> -->        
+        <header>Узнай на все 100 %!</header>
+    </head>
+    <body>                          <!--  put everything else in <body>, because <html> only allows <head> and <body> as children --> 
+        <section>
+            <h1>Языки программирования</h1>
+            <figure>
+                <img src="https://www.python.org/static/img/python-logo.png">
+                <figcaption>Логотип Python</figcaption>
+            </figure>
+            <article>
+                <p>Язык Python сейчас очень популярный для обработки данных<br />    <!-- inserted <br /> instead of multiple <p> -->
+                И для исследований в сфере искусственного интеллекта<br />  
+                Но нужно много работать, чтобы его понять</p>
+            </article>    
+        </section>
+        <nav>
+            <a href="#">Главная страница</a> <br />  <!-- rewrote <br> to <br /> for XHTML compatibility -->
+            <a href="#">Раздел 1</a>         <br />  
+            <a href="#">Раздел 2</a>         <br />
+            <a href="#">Раздел 3</a>         <br />
+        <footer>Успехов в освоении</footer>       <!-- I put <footer> in <nav> because I didn’t like that he was a child <body> -->
+        </nav>                                         
+    </body>
+</html>
